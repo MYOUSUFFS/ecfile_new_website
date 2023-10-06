@@ -34,7 +34,7 @@ const formsubmit= async (event)=>{
   console.log(window)
         try{
             
-         await   fetch('http://localhost:5000/landing/users/', {
+         await   fetch('https://ecfilesolutions.com/landing/users/', {
     method: 'POST',
     headers: {
         'Accept': 'application/json',
